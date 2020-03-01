@@ -76,3 +76,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
 gem 'bootstrap'
 gem 'jquery-rails'
+
+# 擬似ユーザを生成する
+gem 'faker' 
+
+# ページネーション
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
