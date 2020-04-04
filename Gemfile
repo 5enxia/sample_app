@@ -67,6 +67,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -79,6 +80,10 @@ gem 'jquery-rails'
 
 # 擬似ユーザを生成する
 gem 'faker' 
+
+# 画像アプッロード
+gem 'carrierwave'
+gem 'mini_magick'
 
 # ページネーション
 gem 'will_paginate'
