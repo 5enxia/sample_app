@@ -17,8 +17,6 @@ class PictureUploader < CarrierWave::Uploader::Base
   # アップロードファイルの保存先ディレクトリ
   def store_dir
       "ud6eqvaic4yl/public/#{model.id}"
-    end
-
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
