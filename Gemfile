@@ -67,6 +67,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'fog-aws'
   gem 'aws-sdk-rails'
   gem 'fog'
 end

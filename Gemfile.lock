@@ -526,6 +526,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   faker
   fog
+  fog-aws
   guard
   guard-minitest
   jbuilder (~> 2.5)
